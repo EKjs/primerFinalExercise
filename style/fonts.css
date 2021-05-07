@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Dancing Script';
+    src: url('./fonts/DancingScript-Regular.ttf')
+    format('truetype');
+}
+@font-face{
+    font-family: 'Spartan';
+    src: url('./fonts/Spartan-Bold.ttf')
+    format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Spartan';
+    src: url('./fonts/Spartan-Light.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Spartan Thin';
+    src: url('./fonts/Spartan-Thin.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

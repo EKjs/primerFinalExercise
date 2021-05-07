@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #c1c8c7;
+}
+a{
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-color: #5e6668;
+    width: 100%;
+    height: 8rem;
+}
+
+header img {
+    float: left;
+    margin: 1rem;
+}
+
+header h1 {
+    font-family: 'Dancing Script';
+    font-size: 2.3rem;
+    margin-top: 2.2rem;
+    color: white;
+    float: left;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: #252b31;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.7rem;
+    margin: 0 2rem;
+}
+
+nav ul li:hover {
+    background-color: rgba(200, 200, 200, .8);
+}
+
+ul li a{
+    color: white;
+}
+
+#sidebar {
+    float: left;
+    width: 15%;
+    height:auto;
+    padding: 1rem;
+}
+
+#sidebar ul li{
+    list-style: none;
+    padding: .3rem;
+}
+
+#sidebar ul li:hover{
+    text-decoration: underline #252b31 dotted;
+}
+
+#sidebar a{
+    color: #252b31 ;
+}
+
+main {
+    float: left;
+    width: 85%;
+    height: max-content;
+    background-color: white;
+}
+
+p{
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+p span{
+    font-weight: bold;
+}
+p a{
+    text-decoration: underline black dotted;
+}
+
+article {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: white;
+    border: 1px solid #c1c8c7;
+    padding: 1rem;
+}
+article p{
+    display: inline;
+}
+.photo {
+    float: left;
+    margin-right: 1rem;
+}
+.photo img {
+    width: 300px;
+    height: auto;
+}
+.alignright {
+    float: right;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+
+.spoiler{
+    display: none;
+    float: left;
+}
+.show{
+    display: block;
+}
+label,textarea,input{
+    display: block;
+    float: left;
+    font-family: 'Spartan', Arial, Helvetica, sans-serif;
+    padding: .3rem;
+}
+
+textarea {
+    display: block;
+    float: left;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+
+footer {
+    background-color: #252b31;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0.7rem;
+    margin: 0 4rem;
+}
+
+footer ul li:hover {
+    background-color: rgba(200, 200, 200, .8);
+}
